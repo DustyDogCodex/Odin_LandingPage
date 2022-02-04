@@ -1,6 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -8,7 +11,18 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 0px 10%;
+    background: #1f2937;
+}
+
+header > h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+header li {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 button {
@@ -16,6 +30,7 @@ button {
     color: #f9faf8;
     font-size: 16px;
     padding: 5px 20px;
+    border: 2px solid #f9faf8;
     border-radius: 8px;
 }
 
@@ -27,17 +42,28 @@ ul {
 
 a {
     text-decoration: none;
+    color: #f9faf8;
+}
 
+.bigText {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .first {
     display: flex;
+    justify-content: space-between;
+    background: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 40px 10%;
 }
 
 .pics{
     display: flex;
     width: 500px;
     height: 250px;
+    margin-left: 80px;
     border: 2px solid gray;
     align-items: center;
     justify-content: center;
@@ -47,11 +73,70 @@ a {
 
 .second {
     text-align: center;
+    padding: 40px 10%;
+}
+
+.second > h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image div {
+    padding: 20px;
+    margin: 20px;
+}
+
+.third {
+    background: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    padding: 50px 20%;
+    color: #1f2937;
+}
+
+figcaption {
+    text-align: right;
+}
+
+.fourth {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blueBox {
+    background: #3882f6;
+    width: 75%;
+    padding: 20px 100px;
+    color: #f9faf8;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blueBox > button{
+    border: 2px solid #f9faf8;
 }
 
 footer {
     display: flex;
     height: 40px;
+    padding: 10px 0px;
     background: #1f2937;
     color: #f9faf8;
     border: 2px solid gray;
