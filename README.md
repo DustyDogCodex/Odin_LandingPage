@@ -8,7 +8,7 @@ My goal was to create a landing page for a website!
 
 Completed Project Update!
 
-Finished the landing page! Used placeholders for the small images in the random information section. The webiste is flexible and should work and display well on a variety of display sizes. Did not add responsiveness for mobile since the project didn't call for it. 
+Finished the landing page! Used placeholders for the small images in the random information section. The website is responsive and will display well on a variety of display sizes. Did not add responsiveness for mobile since the project didn't call for it. 
 
 The finished project looks like a fantastic landing page for a small business or a single page application. There is space to add more text and images, as well as a small section for customer testimonials/reviews.
 
